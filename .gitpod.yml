@@ -1,5 +1,4 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
-image: hexpm/elixir:1.13.4-erlang-24.3.4-debian-bullseye-20210902
 tasks:
   - init: echo 'init script' # runs during prebuild
     command: echo 'start script'
